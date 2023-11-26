@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "HealthCheck", "HealthCheck\HealthCheck.esproj", "{FF53E5BE-EF49-4066-BBCF-9F4B87626955}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D20CED32-701F-4E78-BD46-60C1BF7E8338} = {D20CED32-701F-4E78-BD46-60C1BF7E8338}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckAPI", "HealthCheckAPI\HealthCheckAPI.csproj", "{D20CED32-701F-4E78-BD46-60C1BF7E8338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF53E5BE-EF49-4066-BBCF-9F4B87626955}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D20CED32-701F-4E78-BD46-60C1BF7E8338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20CED32-701F-4E78-BD46-60C1BF7E8338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20CED32-701F-4E78-BD46-60C1BF7E8338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20CED32-701F-4E78-BD46-60C1BF7E8338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2EC56C1-DEA7-482D-A82A-129A8043D8F2}
+	EndGlobalSection
+EndGlobal
